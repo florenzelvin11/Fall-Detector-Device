@@ -155,7 +155,7 @@ void forceStart(){
     if(btnMode()){
         // Manual Alert System On
         Serial.println("Fatal Fall\n"); // Default to a Fatal Fall Type - Data send to app
-        fall_mode();
+        fall_mode(); // Detects the fall
     }
 }
 
